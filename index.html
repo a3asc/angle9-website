@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angle Nine Associates | Advanced Technology Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-symbol">∠9</span>
+                <span class="logo-text">Angle Nine</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">Advanced Technology Consultancy</p>
+            <h1 class="hero-title">Engineering the<br><span class="gradient-text">Future of Intelligence</span></h1>
+            <p class="hero-subtitle">We architect transformative solutions at the intersection of artificial intelligence, quantum computing, and data engineering.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View Our Work</a>
+                <a href="#contact" class="btn btn-secondary">Start a Conversation</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">150+</span>
+                    <span class="stat-label">Projects Delivered</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">40+</span>
+                    <span class="stat-label">Enterprise Clients</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">Countries Served</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="grid-pattern"></div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">What We Do</p>
+                <h2 class="section-title">Expertise Areas</h2>
+                <p class="section-subtitle">We operate at the frontier of technology, delivering solutions that redefine what's possible.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- AI Transportation -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            <path d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">AI for Transportation & Logistics</h3>
+                    <p class="service-tagline">"Moving the world smarter, one algorithm at a time."</p>
+                    <p class="service-description">Intelligent route optimization, predictive fleet management, and autonomous systems that transform how goods and people move across the globe.</p>
+                    <ul class="service-capabilities">
+                        <li>Predictive Route Optimization</li>
+                        <li>Fleet Intelligence Systems</li>
+                        <li>Supply Chain Neural Networks</li>
+                        <li>Real-time Demand Forecasting</li>
+                    </ul>
+                </div>
+
+                <!-- Quantum Computing -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M12 2v4m0 12v4M2 12h4m12 0h4"/>
+                            <path d="M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Quantum Computing</h3>
+                    <p class="service-tagline">"Beyond classical limits. Beyond imagination."</p>
+                    <p class="service-description">Pioneering quantum algorithms and hybrid classical-quantum systems that solve previously intractable problems in optimization, cryptography, and simulation.</p>
+                    <ul class="service-capabilities">
+                        <li>Quantum Algorithm Design</li>
+                        <li>Hybrid Computing Architectures</li>
+                        <li>Quantum Machine Learning</li>
+                        <li>Post-Quantum Cryptography</li>
+                    </ul>
+                </div>
+
+                <!-- Medical AI -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M4.8 2.3A.3.3 0 105 2H4a2 2 0 00-2 2v5a2 2 0 002 2h1a.3.3 0 10-.2-.3"/>
+                            <path d="M8 15v1a6 6 0 006 6v0a6 6 0 006-6v-4"/>
+                            <path d="M12 12v0a4 4 0 01-4-4V4a2 2 0 012-2h4a2 2 0 012 2v4a4 4 0 01-4 4z"/>
+                            <path d="M14 22v-4"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">AI for Medical SaaS</h3>
+                    <p class="service-tagline">"Precision healthcare, powered by intelligence."</p>
+                    <p class="service-description">Clinical decision support, diagnostic imaging AI, and patient outcome prediction systems that augment healthcare professionals and improve lives.</p>
+                    <ul class="service-capabilities">
+                        <li>Diagnostic Imaging Analysis</li>
+                        <li>Clinical Decision Support</li>
+                        <li>Patient Risk Stratification</li>
+                        <li>Drug Discovery Acceleration</li>
+                    </ul>
+                </div>
+
+                <!-- ML & Data Engineering -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/>
+                            <path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Machine Learning & Data Engineering</h3>
+                    <p class="service-tagline">"From raw data to refined intelligence."</p>
+                    <p class="service-description">End-to-end ML pipelines, scalable data architectures, and production-grade AI systems that turn organizational data into competitive advantage.</p>
+                    <ul class="service-capabilities">
+                        <li>MLOps & Model Deployment</li>
+                        <li>Real-time Data Pipelines</li>
+                        <li>Feature Engineering Platforms</li>
+                        <li>Enterprise Data Lakes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">Our Work</p>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A selection of transformative solutions we've delivered for industry leaders.</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card project-featured">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Autonomous Fleet Orchestration">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Transportation AI</span>
+                        <h3 class="project-title">Autonomous Fleet Orchestration Platform</h3>
+                        <p class="project-description">Built an AI-driven command center for a Fortune 100 logistics company, orchestrating 15,000+ vehicles across 3 continents with real-time optimization.</p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">23%</span>
+                                <span class="metric-label">Fuel Reduction</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">$180M</span>
+                                <span class="metric-label">Annual Savings</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&q=80" alt="Quantum Portfolio Optimization">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Quantum Computing</span>
+                        <h3 class="project-title">Quantum Portfolio Optimization Engine</h3>
+                        <p class="project-description">Developed hybrid quantum-classical algorithms for a global investment firm, achieving portfolio optimization 1000x faster than classical methods.</p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">1000x</span>
+                                <span class="metric-label">Speed Increase</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&q=80" alt="Radiology AI Assistant">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Medical AI</span>
+                        <h3 class="project-title">RadiologyIQ Diagnostic Platform</h3>
+                        <p class="project-description">Created an FDA-cleared AI system that assists radiologists in detecting early-stage lung nodules with 94% sensitivity, deployed across 200+ hospitals.</p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">94%</span>
+                                <span class="metric-label">Detection Rate</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Enterprise ML Platform">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Data Engineering</span>
+                        <h3 class="project-title">Enterprise ML Feature Store</h3>
+                        <p class="project-description">Architected a petabyte-scale feature store for a telecommunications giant, enabling real-time ML inference for 50M+ daily predictions.</p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">50M+</span>
+                                <span class="metric-label">Daily Predictions</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80" alt="Predictive Patient Care">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Medical AI</span>
+                        <h3 class="project-title">Predictive Readmission Prevention</h3>
+                        <p class="project-description">Deployed a patient risk stratification system across a major health network, reducing 30-day readmissions by 31% through proactive intervention alerts.</p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">31%</span>
+                                <span class="metric-label">Readmission Reduction</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=600&q=80" alt="Supply Chain Intelligence">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Transportation AI</span>
+                        <h3 class="project-title">Predictive Supply Chain Network</h3>
+                        <p class="project-description">Built an AI system that predicts supply chain disruptions 72 hours in advance for a global manufacturer, enabling proactive rerouting and inventory management.</p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">72hr</span>
+                                <span class="metric-label">Advance Warning</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <p class="section-eyebrow">About Us</p>
+                    <h2 class="section-title">Built by Engineers.<br>Driven by Curiosity.</h2>
+                    <p class="about-text">Angle Nine Associates was founded on a simple premise: the most complex problems require the most rigorous thinking. We are a collective of researchers, engineers, and strategists who operate at the bleeding edge of technology.</p>
+                    <p class="about-text">Our name reflects our approach—finding the precise angle of attack for every challenge. We don't just implement solutions; we architect them from first principles, ensuring they scale, adapt, and endure.</p>
+                    <div class="about-values">
+                        <div class="value">
+                            <h4>Rigor</h4>
+                            <p>Every solution is built on mathematical foundations and empirical validation.</p>
+                        </div>
+                        <div class="value">
+                            <h4>Innovation</h4>
+                            <p>We pursue the unexplored, turning theoretical possibilities into practical realities.</p>
+                        </div>
+                        <div class="value">
+                            <h4>Impact</h4>
+                            <p>Technology without purpose is noise. We build what matters.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-image-container">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80" alt="Technology visualization">
+                        <div class="about-image-overlay"></div>
+                    </div>
+                    <div class="about-badge">
+                        <span class="badge-number">9</span>
+                        <span class="badge-text">Years of<br>Excellence</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-content">
+                    <p class="section-eyebrow">Get in Touch</p>
+                    <h2 class="section-title">Let's Build<br>Something Remarkable</h2>
+                    <p class="contact-text">Whether you're exploring what's possible or ready to transform your operations, we're here to help you navigate the frontier.</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:hello@angle9.com">hello@angle9.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Phone</span>
+                            <a href="tel:+14155550192">+1 (415) 555-0192</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Location</span>
+                            <span>New York • San Francisco • Kyiv</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">Area of Interest</label>
+                            <select id="interest" name="interest">
+                                <option value="">Select an area</option>
+                                <option value="transportation">AI for Transportation</option>
+                                <option value="quantum">Quantum Computing</option>
+                                <option value="medical">Medical AI / SaaS</option>
+                                <option value="ml-data">ML & Data Engineering</option>
+                                <option value="other">Other / General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-symbol">∠9</span>
+                        <span class="logo-text">Angle Nine</span>
+                    </a>
+                    <p class="footer-tagline">Engineering the future of intelligence.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Transportation AI</a></li>
+                            <li><a href="#services">Quantum Computing</a></li>
+                            <li><a href="#services">Medical AI</a></li>
+                            <li><a href="#services">Data Engineering</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Angle Nine Associates. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
